@@ -1,0 +1,422 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: navy;
+}
+
+a:link {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: navy;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* Estilo de header */
+header {
+    background-color: rgba(215, 235, 236, 0.493);
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    height: 75px;
+}
+
+/* Crear 2 columnas con la misma posición en la fila */
+nav {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    /* only for demonstration, should be removed */
+    background: rgb(255, 255, 255);
+    padding: 20px;                     
+}
+
+
+/* nav bar horizontal */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: rgba(234, 246, 247, 0.637);
+}
+li {
+    float:left;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 86px;
+    text-decoration: none;            
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(54, 130, 216);
+    color: rgb(255, 255, 255);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    background-color: #ffffff;
+    height: 600px;
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Estilo de footer */
+footer {
+    background-color: rgba(215, 233, 235, 0.664);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+    height: 300px;
+}
+
+
+
+/*div {
+position:center;
+width:100px;
+height:100px;
+background:red;
+left:10px;
+top:100px;
+}
+
+div.absolute {
+position: absolute;
+top: 80px;
+right: 0;
+width: 200px;
+height: 100px;
+border: 3px solid #73AD21;
+}*/
+
+.boton_personalizado{
+position: absolute;
+text-decoration: none;
+padding: 15px;
+font-weight: 600;
+font-size: 10px;
+color: #3052c4;
+background-color: rgba(215, 233, 235, 0.664);
+border-radius: 6px;
+
+}
+.boton_personalizado:hover{
+color: #ffffff;
+background-color: #3052c4;
+}
+
+
+div {    
+width: 450px;
+height: 120px;
+background: #ffffff;
+}
+
+.navegacionizquierda {
+position: absolute;
+font-size: 15px;
+left: 80px;
+width: 40%;
+height: 400px;
+/* only for demonstration, should be removed */
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+
+.navegacionderecha {
+position: absolute;
+font-size: 15px;
+left: 700px;
+width: 40%;
+height: 400px;
+/* only for demonstration, should be removed */
+background: rgb(255, 255, 255);
+padding: 20px;
+}
+
+
+.marcasvacuna {
+background-image: url("https://i.ibb.co/z5bXHZV/marcasvacuna.png");
+height: 100px;
+width: 1330px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.2;
+}
+
+
+.cuadroprincipal {
+position: absolute;
+top:8px;
+left: 8px;
+width: 250px;
+height: 75px;
+text-align: center;
+color:rgb(66, 69, 211);
+}
+
+.rectanguloflotante {
+position: absolute;
+top:450px;
+left:100px;
+width: 750px;
+height: 100px;
+opacity: 0.9;
+}
+
+.cuadro1 {
+position: absolute;
+top:1050px;
+left:100px;
+width: 200px;
+height: 230px;
+border: 2px inset #58575815;
+}
+.cuadro2 {
+position: absolute;
+top:1050px;
+left:400px;
+width: 200px;
+height: 230px;
+border: 2px inset #58575815;
+}
+.cuadro3 {
+position: absolute;
+top:1050px;
+left:700px;
+width: 200px;
+height: 230px;
+border: 2px inset #58575815;
+}
+.cuadro4 {
+position: absolute;
+top:1050px;
+left:1000px;
+width: 200px;
+height: 230px;
+border: 2px inset #58575815;
+}
+
+
+.rectangulo1 {
+position: absolute;
+top:1600px;
+left:750px;
+width: 300px;
+height: 50px;
+border: 2px inset #58575815;
+}
+
+.rectangulo2 {
+position: absolute;
+top:1670px;
+left:750px;
+width: 300px;
+height: 50px;
+border: 2px inset #58575815;
+}
+
+.rectangulo3 {
+position: absolute;
+top:1740px;
+left:750px;
+width: 300px;
+height: 50px;
+border: 2px inset #58575815;
+}
+
+.rectangulo4 {
+position: absolute;
+top:1810px;
+left:750px;
+width: 300px;
+height: 50px;
+border: 2px inset #58575815;
+}
+
+.rectangulo5 {
+position: absolute;
+top:1880px;
+left:750px;
+width: 300px;
+height: 50px;
+border: 2px inset #58575815;
+}
+
+
+.cuadrocontacto1 {
+position: absolute;
+top:2300px;
+left:100px;
+width: 200px;
+height: 150px;
+text-align: center;
+border: 2px inset #58575815;
+}
+
+.contactosubmit1 {
+position: absolute;
+top:2300px;
+left:150px;
+width: 100px;
+height: 40px;
+}
+
+.cuadrocontacto2 {
+position: absolute;
+top:2200px;
+left:400px;
+width: 200px;
+height: 150px;
+text-align: center;
+border: 2px inset #58575815;
+
+}
+
+.contactosubmit2 {
+position: absolute;
+top:2300px;
+left:450px;
+width: 100px;
+height: 40px;
+}
+
+.cuadrocontacto3 {
+position: absolute;
+top:2400px;
+left:100px;
+width: 200px;
+height: 150px;
+text-align: center;
+border: 2px inset #58575815;
+
+}
+
+.contactosubmit3 {
+position: absolute;
+top:2500px;
+left:140px;
+width: 150px;
+height: 40px;
+}
+
+.cuadrocontacto4 {
+position: absolute;
+top:2400px;
+left:400px;
+width: 200px;
+height: 150px;
+text-align: center;
+border: 2px inset #58575815;
+
+}
+
+.contactosubmit4 {
+position: absolute;
+top:2500px;
+left:450px;
+width: 140px;
+height: 40px;
+}
+
+.acerca {
+position: absolute;
+top: 1350px;
+left:100px;
+width: 250px;
+height: 150px;
+color: #3052c4;
+background-color: rgba(215, 233, 235, 0.048);
+}
+
+.acerca2 {
+position: absolute;
+top: 1350px;
+left: 700px;
+width: 150px;
+height: 150px;
+text-align: left;
+color:navy;
+background-color: rgba(215, 233, 235, 0.048);
+}
+
+.acerca3 {
+position: absolute;
+top: 1350px;
+left: 900px;
+width: 150px;
+height: 150px;
+text-align: left;
+color:navy;
+background-color: rgba(215, 233, 235, 0.048);
+
+}
+
+.acerca4 {
+position: absolute;
+top: 1350px;
+left:1100px;
+width: 150px;
+height: 150px;
+text-align: left;
+color:navy;
+background-color: rgba(215, 233, 235, 0.048);
+
+}
+
+.acerca5 {
+position: absolute;
+top: 1550px;
+left:100px;
+width: 1150px;
+height: 40px;
+text-align: left;
+color:navy;
+background-color: rgba(215, 233, 235, 0.048);
+
+}
+
+/*.flex-container {
+display: flex;  
+height: 100px;
+align-items: center;
+}
+*/
+
+
+/* Responsive layout */
+@media (max-width: 800px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
